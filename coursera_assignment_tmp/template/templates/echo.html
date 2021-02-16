@@ -1,0 +1,13 @@
+{% for a, b in get.items %}
+    get {{ a }}: {{ b }}
+{% endfor %}
+
+{% for a, b in post.items %}
+    post {{ a }}: {{ b }}
+{% endfor %}
+
+{% if meta.HTTP_X_PRINT_STATEMENT %}
+    statement is {{meta.HTTP_X_PRINT_STATEMENT }}
+{% else %}
+    statement is empty
+{% endif %}

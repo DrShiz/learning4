@@ -1,0 +1,118 @@
+a.log_in, a.register, a.best_member__member, a.topic_tags {
+    text-decoration: underline;
+}
+
+.top_bar.container {
+    background: #C0C0C0;
+}
+
+input.form-control.mr-lg {
+    margin: 10px;
+}
+
+.top_bar__row__col.col-2 {
+    padding-top: 10px;
+}
+
+.top_bar__row__col.col-1 {
+    padding-top: 15px;
+}
+
+.container__row__content.col-9 {
+    padding: 15px;
+}
+
+.question_bar__avatar__col_container__avatar {
+    width: 50px;
+    height: 75px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background: #ddd;
+    vertical-align: middle;
+    margin: 20px;
+}
+
+.large_avatar {
+    width: 180px;
+    height: 250px;
+}
+
+.question_bar__text__col.col-9 {
+    margin-top: 20px;
+}
+
+.answer_bar__avatar__col_container__avatar {
+    width: 50px;
+    height: 75px;
+    border: 1px solid #ccc;
+    text-align: center;
+    background: #ddd;
+    vertical-align: middle;
+    margin: 5px;
+}
+
+.small_avatar {
+    width: 100px;
+    height: 150px;
+}
+
+a.tags_menu__tag.tag {
+ font-size: 20px;
+}
+
+.tags__col.col {
+    padding: 6px 12px;
+    margin: 30px 0px;
+}
+
+
+.container__row__content_question_row.row {
+    padding: 20px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.question_bar__avatar__col_container__spinner.spinner {
+    width: 20px;
+}
+
+.question_bar__avatar__col_spinner_container {
+    margin-left: 80px;
+}
+
+.answer_bar__avatar__col_spinner_container {
+    margin-left: 30px;
+}
+
+.answer_bar__avatar__col_container__avatar.small_avatar {
+    margin: 10px;
+}
+
+.answer_bar__avatar__col_container__spinner.spinner {
+    width: 20px;
+}
+
+.container__row__content_answers_row.row {
+    margin: 15px 0px;
+    padding: 15px 0px;
+    border: 1px solid #ccc;
+}
+
+.container_row__sidebar.col-3 {
+    margin-top: 20px;
+    padding-left: 70px;
+}
+
+.container_row__sidebar__tags__col.col, .container_row__sidebar_best_members__col.col {
+    padding: 20px 0px;
+}
+
+.new_answer__textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.container__row__content_new_answer_row.row {
+    border-top: 1px solid #ccc;
+    padding-top: 20px;
+}

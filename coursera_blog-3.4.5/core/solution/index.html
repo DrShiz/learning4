@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AskPupkin</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="index.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="http://jqueryui.com/resources/demos/external/jquery-mousewheel/jquery.mousewheel.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css">
+    <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+
+    <script>
+        $( function() {
+            var spinner = $( ".spinner" ).spinner().val(5);
+        });
+    </script>
+</head>
+<body>
+
+
+<div class="top_bar container">
+    <div class="top_bar__row row">
+        <div class="top_bar__row__col col-2">
+            <h3>Stackoverflow</h3>
+        </div>
+        <div class="top_bar__row__col col-8">
+            <input class="form-control mr-lg" type="search" placeholder="Search" aria-label="Search">
+        </div>
+        <div class="top_bar__row__col col-1">
+            <a class="log_in" href="#">log in</a>
+        </div>
+        <div class="top_bar__row__col col-1">
+            <a class="register" href="#">register</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="container__row row">
+        <div class="container__row__content col-9">
+            <div class="container__row__content_question_row row">
+                <div class="question_bar__avatar__col col-3">
+                    <div class="question_bar__avatar__col_container__avatar large_avatar">
+                    </div>
+                    <div class="question_bar__avatar__col_spinner_container">
+                        <input class="question_bar__avatar__col_container__spinner spinner">
+                    </div>
+                </div>
+                <div class="question_bar__text__col col-9">
+                    <h3>How to build a moon park?</h3>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed metus nibh, pharetra eget tincidunt eget, tempus eget ex. Nulla facilisi. Integer ac placerat arcu. Pellentesque molestie justo vel nunc ornare dapibus. Curabitur semper elit vitae varius blandit. Morbi in aliquam sapien. Fusce mattis odio eu ultrices gravida. Aenean sollicitudin, quam eu faucibus laoreet, elit eros accumsan felis, nec finibus augue augue at lectus. Vivamus erat purus, placerat sed ligula a, blandit gravida orci. Integer tristique neque turpis, dictum tincidunt arcu aliquam ac. </p>
+                    <p>Tags:  <a class="topic_tags" href="#">black-jack</a>  <a class="topic_tags" href="#">bender</a></p>
+                </div>
+            </div>
+            <div class="container__row__content_answers_row row">
+                <div class="answer_bar__avatar__col col-2">
+                    <div class="answer_bar__avatar__col_container__avatar small_avatar">
+                    </div>
+                    <div class="answer_bar__avatar__col_spinner_container">
+                        <input class="answer_bar__avatar__col_container__spinner spinner">
+                    </div>
+                </div>
+                <div class="answer_bar__text__col col-10">
+                        <p>First of all I would like to thank you for the invitation to participate in such a ... Russia is the huge territory which in many respects needs to be render habitable.</p>
+                    </div>
+            </div>
+            <div class="container__row__content_answers_row row">
+                <div class="answer_bar__avatar__col col-2">
+                    <div class="answer_bar__avatar__col_container__avatar small_avatar">
+                    </div>
+                    <div class="answer_bar__avatar__col_spinner_container">
+                        <input class="answer_bar__avatar__col_container__spinner spinner">
+                    </div>
+                </div>
+                <div class="answer_bar__text__col col-10">
+                        <p>First of all I would like to thank you for the invitation to participate in such a ... Russia is the huge territory which in many respects needs to be render habitable.</p>
+                    </div>
+            </div>
+            <div class="container__row__content_new_answer_row row">
+                <textarea class="new_answer__textarea" placeholder="Enter your answer here"></textarea>
+                <br><input type="submit" value="Answer">
+            </div>
+        </div>
+        <div class="container_row__sidebar col-3">
+            <div class="container_row__sidebar__tags__col col">
+                <h3>Popular Tags</h3>
+                <div class="tags">
+                    <div class="tags_menu">
+                        <a class="tags_menu__tag tag" href="#">coursera</a>  <a class="tags_menu__tag tag" href="#">mysql</a>
+                    </div>
+                    <div class="tags_menu">
+                        <a class="tags_menu__tag tag" href="#">python</a>  <a class="tags_menu__tag tag" href="#">django</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container_row__sidebar_best_members__col col">
+                <h4>Best Members</h4>
+                    <div class="best_members">
+                        <p><a class="best_member__member" href="#">Mr. Freeman</a></p>
+                        <p><a class="best_member__member" href="#">Dr. House</a></p>
+                        <p><a class="best_member__member" href="#">Bender</a></p>
+                        <p><a class="best_member__member" href="#">Qeen Victoria</a></p>
+                    </div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+</body>
+</html>
