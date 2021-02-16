@@ -3,7 +3,7 @@ import datetime
 import operator
 
 
-ACCESS_TOKEN = 'be6db42abe6db42abe6db42a9dbe1d5269bbe6dbe6db42ae0e3b3c1a618dca561073307'
+ACCESS_TOKEN = ''
 URL_u = 'https://api.vk.com/method/users.get'
 URL_f = 'https://api.vk.com/method/friends.get'
 CURRENT_YEAR = datetime.datetime.now().year
